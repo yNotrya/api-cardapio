@@ -5,7 +5,10 @@ const app = express();
 const PORT = 3000;
 
 app.get('/status', (req, res) => {
-  res.json({ status: 'ok' });
+  res.json({ 
+    message: 'API Cardapio Digital em execução',
+    status: 200 + ' ok' 
+  });
 });
 
 app.get('/cardapio_digital', (req, res) => {
