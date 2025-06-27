@@ -1,0 +1,92 @@
+[
+  {
+    "id_item": "PRATO001",
+    "nome_prato": "Hamburguer Clássico da Casa",
+    "descricao": "Pão artesanal, blend de carnes 180g, queijo cheddar, alface, tomate e molho especial.",
+    "preco": 32.50,
+    "categoria": "Hamburgueres",
+    "imagem_url": "hamburguer_classico.jpg",
+    "disponivel_delivery": true
+  },
+  {
+    "id_item": "BEB001",
+    "nome_prato": "Suco de Laranja",
+    "descricao": "Suco natural de laranja, 500ml.",
+    "preco": 8.00,
+    "categoria": "Bebidas",
+    "imagem_url": "suco_laranja.jpg",
+    "disponivel_delivery": true
+  },
+  {
+    "id_item": "PRATO002",
+    "nome_prato": "Cheeseburger Bacon",
+    "descricao": "Hambúrguer 150g, queijo prato, bacon crocante, maionese da casa.",
+    "preco": 29.90,
+    "categoria": "Hamburgueres",
+    "imagem_url": "cheeseburger_bacon.jpg",
+    "disponivel_delivery": true
+  },
+  {
+    "id_item": "BEB002",
+    "nome_prato": "Refrigerante Lata",
+    "descricao": "Coca-Cola, Pepsi ou Guaraná, 350ml.",
+    "preco": 6.00,
+    "categoria": "Bebidas",
+    "imagem_url": "refrigerante_lata.jpg",
+    "disponivel_delivery": true
+  },
+  {
+    "id_item": "PRATO003",
+    "nome_prato": "Batata Frita",
+    "descricao": "Porção de batatas fritas crocantes, 300g.",
+    "preco": 15.00,
+    "categoria": "Acompanhamentos",
+    "imagem_url": "batata_frita.jpg",
+    "disponivel_delivery": true
+  },
+  {
+    "id_item": "PRATO004",
+    "nome_prato": "Onion Rings",
+    "descricao": "Anéis de cebola empanados e fritos, porção de 12 unidades.",
+    "preco": 18.00,
+    "categoria": "Acompanhamentos",
+    "imagem_url": "onion_rings.jpg",
+    "disponivel_delivery": true
+  },
+  {
+    "id_item": "BEB003",
+    "nome_prato": "Água Mineral",
+    "descricao": "Garrafa de água sem gás, 500ml.",
+    "preco": 4.00,
+    "categoria": "Bebidas",
+    "imagem_url": "agua_mineral.jpg",
+    "disponivel_delivery": true
+  },
+  {
+    "id_item": "PRATO005",
+    "nome_prato": "X-Salada",
+    "descricao": "Pão, hambúrguer 120g, queijo, alface, tomate, maionese.",
+    "preco": 25.00,
+    "categoria": "Hamburgueres",
+    "imagem_url": "x_salada.jpg",
+    "disponivel_delivery": true
+  },
+  {
+    "id_item": "BEB004",
+    "nome_prato": "Suco de Morango",
+    "descricao": "Suco natural de morango, 500ml.",
+    "preco": 10.00,
+    "categoria": "Bebidas",
+    "imagem_url": "suco_morango.jpg",
+    "disponivel_delivery": true
+  },
+  {
+    "id_item": "PRATO006",
+    "nome_prato": "Cheddar Duplo",
+    "descricao": "Dois hambúrgueres 100g, cheddar cremoso, cebola caramelizada.",
+    "preco": 35.00,
+    "categoria": "Hamburgueres",
+    "imagem_url": "cheddar_duplo.jpg",
+    "disponivel_delivery": true
+  }
+]
