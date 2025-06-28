@@ -1,0 +1,6 @@
+- name: Setup Node.js API
+  hosts: node_api
+  become: yes
+
+  roles:
+    - node_api

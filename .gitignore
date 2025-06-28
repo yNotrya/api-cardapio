@@ -1,1 +1,8 @@
 node_modules/
+aws/
+awscliv2.zip
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/api-cardapio-key.pem

@@ -1,0 +1,50 @@
+---
+- name: Atualiza pacotes
+  yum:
+    update_cache: yes
+    name: '*'
+
+- name: Baixa e instala o NVM
+  shell: |
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+  args:
+    executable: /bin/bash
+
+- name: Carrega NVM e instala Node.js 16
+  shell: |
+    export NVM_DIR="$HOME/.nvm"
+    source "$NVM_DIR/nvm.sh"
+    nvm install 16
+  args:
+    executable: /bin/bash
+
+- name: Instala npm
+  shell: |
+    curl -fsSL https://rpm.nodesource.com/setup_18.x | bash -
+
+- name: Instala o Git
+  yum:
+    name: git
+    state: present
+
+- name: Clona o repositório da API
+  git:
+    repo: https://github.com/yNotrya/api-cardapio.git 
+    dest: /home/ubuntu/api-cardapio
+    version: main
+
+- name: Instala dependências do projeto
+  shell: |
+    export NVM_DIR="$HOME/.nvm"
+    source "$NVM_DIR/nvm.sh"
+    cd /home/ubuntu/api-cardapio
+    nvm use 16
+    npm install
+  args:
+    executable: /bin/bash
+
+- name: Inicia a aplicação com nohup (modo simples)
+  shell: |
+    nohup npm start &
+  args:
+    chdir: /home/ubuntu/api-cardapio

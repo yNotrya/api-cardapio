@@ -1,7 +1,7 @@
 const express = require('express');
-const fs = require('fs');
+const fs      = require('fs');
 
-const app = express();
+const app  = express();
 const PORT = 3000;
 
 app.get('/status', (req, res) => {
@@ -17,5 +17,5 @@ app.get('/cardapio_digital', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`API rodando em http://localhost:${PORT}`);
+  console.log(`API rodando`);
 });
